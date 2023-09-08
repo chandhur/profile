@@ -49,8 +49,8 @@ function whatsapp(){
 
   var whatsappurl="https://wa.me/919965987143?text="
   +"Name of friend:"+name+"%0a"
-  +"EMAIL-ID:"+mobile+"%0a"
-  +"MOBILE-NUMBER:"+email+"%0a"
+  +"EMAIL-ID:"+email+"%0a"
+  +"MOBILE-NUMBER:"+mobile+"%0a"
   +"message:"+message;
 
   window.open(whatsappurl,"_blank").focus();
